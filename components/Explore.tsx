@@ -185,6 +185,28 @@ function Explore() {
               sizes="50"
             />
           </a>
+
+          <a href="https://www.oru" title="Örebro Universitet" target="_blank">
+            <img
+              className="logo"
+              src="/ORU.png"
+              alt="Örebro Universitet"
+              sizes="50"
+            />
+          </a>
+
+          <a
+            href="https://www.slu.se"
+            title="Sveriges lantbruksuniversitet"
+            target="_blank"
+          >
+            <img
+              className="logo"
+              src="/SLU.png"
+              alt="Sveriges lantbruksuniversitet"
+              sizes="50"
+            />
+          </a>
         </div>
 
         <h1 className="pt-16 uppercase tracking-widest text-gray-700">

@@ -24,16 +24,9 @@ function Header() {
   }, []);
 
   return (
-    <header className="shadow-lg bg-[#ecf0f3]">
-      <div className="w-full flex justify-between">
-        <img
-          src="https://rb.gy/ulxxee"
-          width={100}
-          height={100}
-          className="cursor-pointer object-contain"
-          alt="logo"
-        />
-        <nav className="flex items-center space-x-2 md:space-x-10">
+    <header className="shadow-lg bg-[#ecf0f3] flex justify-end">
+      <div className=" flex items-end justify-between">
+        <nav className="flex items-end space-x-2 md:space-x-10">
           <ul className="hidden space-x-4 md:flex">
             <Link href="/">
               <li className="headerLink">Start</li>
@@ -41,18 +34,12 @@ function Header() {
             <Link href="/explore">
               <li className="headerLink">Utforska</li>
             </Link>
-            <Link href="/statistics">
-              <li className="headerLink">Antagningsstatisk</li>
+            <Link href="/followthrough">
+              <li className="headerLink">Antal Examinerade</li>
             </Link>
-            <Link href="/">
-              <li className="headerLink">Genomtagning</li>
-            </Link>
-            <Link href="/">
+            <Link href="/contact">
               <li className="headerLink">Kontakt</li>
             </Link>
-            <li>
-              <SunIcon className="h-6 w-6 cursor-pointer" />
-            </li>
           </ul>
 
           <div onClick={handleNav} className="md:hidden cursor-pointer">
@@ -83,7 +70,7 @@ function Header() {
             </div>
           </div>
           <div>
-            <p>Let's fuck around</p>
+            <p>Hoppas du hittar något informativt</p>
           </div>
           <div className="p-4 flex flex-col">
             <ul>
@@ -93,18 +80,12 @@ function Header() {
               <Link href="/explore">
                 <li className="headerLinkMobile">Utforska</li>
               </Link>
-              <Link href="/statistics">
-                <li className="headerLinkMobile">Antagningsstatisk</li>
+              <Link href="/followthrough">
+                <li className="headerLinkMobile">Antal Examinerade</li>
               </Link>
-              <Link href="/">
-                <li className="headerLinkMobile">Genomtagning</li>
-              </Link>
-              <Link href="/">
+              <Link href="/contact">
                 <li className="headerLinkMobile">Kontakt</li>
               </Link>
-              <li>
-                <SunIcon className="h-6 w-6" />
-              </li>
             </ul>
           </div>
         </div>
