@@ -8,6 +8,10 @@ function FrontPage() {
           För ytterligare frågor kan du kontakta mig via något av nedanstående
           medel
         </h1>
+        <p>Email: ericj4@kth.se</p>
+        <p>
+          Linkedin: <a>https://www.linkedin.com/in/ericwj/</a>
+        </p>
       </main>
     </div>
   );
