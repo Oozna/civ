@@ -9,9 +9,7 @@ function FrontPage() {
           medel
         </h1>
         <p>Email: ericj4@kth.se</p>
-        <p>
-          Linkedin: <a>https://www.linkedin.com/in/ericwj/</a>
-        </p>
+        <a href="https://www.linkedin.com/in/ericwj/">LinkedIn</a>
       </main>
     </div>
   );
