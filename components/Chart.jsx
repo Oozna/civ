@@ -8,8 +8,8 @@ function Chart(data) {
       <Plot
         data={getTraces(data)}
         layout={{
-          width: 1200,
-          height: 700,
+          width: 1500,
+          height: 900,
           legend: {
             orientation: "h",
           },
